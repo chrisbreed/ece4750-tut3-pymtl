@@ -18,6 +18,7 @@ input_values.extend( [0]*3 )
 # Elaborate the model
 
 model = RegIncr()
+model.vcd_file = "regincr-sim.vcd"
 model.elaborate()
 
 # ''' TUTORIAL TASK ''''''''''''''''''''''''''''''''''''''''''''''''''''''
