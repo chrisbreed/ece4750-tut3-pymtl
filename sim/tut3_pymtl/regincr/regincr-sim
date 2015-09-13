@@ -15,6 +15,11 @@ input_values = [ int(x,0) for x in argv[1:] ]
 
 input_values.extend( [0]*3 )
 
+# Elaborate the model
+
+model = RegIncr()
+model.elaborate()
+
 # ''' TUTORIAL TASK ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 # This simulator script is incomplete. As part of the tutorial you will
 # insert code here for constructing and elaborating a RegIncr model
